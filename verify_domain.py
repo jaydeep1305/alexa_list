@@ -127,7 +127,7 @@ try:
 
             new_url = search(query)
             count   = search_internal(new_url,query)
-            result.write(query+"\t"+new_url+"\t"+str(len(count))+"\n");
+            result.write(query+"\t"+new_url+"\t"+str(len(count))+"\n")
             print(query+"\t"+new_url+"\t"+str(len(count)))
 
 except Exception as ex:
